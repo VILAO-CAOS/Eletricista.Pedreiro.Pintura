@@ -1,0 +1,60 @@
+@media screen and (max-width: 480px) {
+
+    .caixa__header {
+
+        width: auto;
+        text-align: center;
+    }
+
+    .nav__header ul {
+
+        position: static;
+        padding-top: 8rem;
+    }
+
+    .nav__header li {
+
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .nav__header a {
+
+        font-size: 2.60rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .supreme {
+
+        width: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .logo {
+
+        width: 60%;
+    }
+
+    .Horarios {
+
+        width: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /*...formulario...*/
+
+    .enviar {
+
+        width: 100%;
+    }
+
+    .input-padrao {
+
+        width: 80%;
+    }
+
+
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/reset.css">
+        <link rel="stylesheet" href="CSS/contato.css">
+        <link rel="stylesheet" href="CSS/contato_style_responsivo.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <div class="caixa__header">
+                <img src="IMG/logo2.png" class="logo">
+                <nav class="nav__header">
+                    <ul>
+                        <li><a href="contato.html">CONTATAR</a></li>
+                        <li><a href="home.html">HOME</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+			<form action="https://api.staticforms.xyz/submit" method="post">
+
+                <input type="hidden" name="accessKey" value="dfa64302-63c0-49b8-b9bd-871d2af92535">
+                <input type="hidden" name="redirectTo" value="https://www.youtube.com/watch?v=E5wp5bHi-4s">
+
+                <div class="supreme">
+                    <label for="nomesobrenome">Nome e sobrenome</label>
+				    <input type="text" id="nomesobrenome" name="name" class="input-padrao" required>
+
+				    <label for="email">Email</label>
+				    <input type="email" id="email" name="email" class="input-padrao" required placeholder="SeuEmail@dominio.com">
+
+				    <label for="telefone">Telefone</label>
+				    <input type="tel" id="telefone" name="phone" class="input-padrao" required placeholder="XXX-XXX-XXX">
+
+				    <label for="mensagem">Mensagem</label>
+				    <textarea cols="70" rows="10" id="mensagem" name="message" class="input-padrao" required placeholder="Informe qual le o problema a ser resolvido"></textarea>
+
+				    <fieldset>
+					    <legend>Como prefere o nosso contato?</legend>
+					    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+					
+					    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+					
+					    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				    </fieldset>
+
+				    <fieldset>
+					    <legend>Qual horário prefere ser atendido?</legend>
+					    <select>
+						    <option>Manhã</option>
+						    <option>Tarde</option>
+						    <option>Noite</option>
+					    </select>
+				    </fieldset>
+
+				    <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+				    <input type="submit" value="submit" class="enviar">
+                </div>
+			</form>
+
+            <div class="Horarios">
+                <table>
+                    <tr>
+                        <td>Segunda a Sabado</td>
+                        <td>Domingo</td>
+                    </tr>
+                    <tr>
+                        <td>24h</td>
+                        <td>Encerado</td>
+                    </tr>
+                </table>
+            </div>
+
+            <footer>
+                <div class="div__footer">
+                    <nav class="nav__footer">
+                        <p class="ti_footer">CONTATENOS:</p>
+                        <ul>
+                            <li>
+                                <p>N: 3287115149</p>    
+                            </li>
+                            <li>
+                                <p>/email:</p>
+                            </li>
+                            <li>
+                                <p>tony@gmail.com</p>    
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </footer>
+		</main>
+    </body>
+</html>

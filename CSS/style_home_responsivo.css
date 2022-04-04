@@ -1,0 +1,108 @@
+@media screen and (max-width: 480px) {
+
+    /*...HEADER...*/
+    .caixa__header {
+
+        width: auto;
+        height: 12rem;
+    }
+
+    .nav__header {
+
+        position: static;
+    }
+
+    .nav__header a {
+
+        font-size: 2rem;
+    }
+
+    .nav__header  ul {
+
+        padding-bottom: 1rem;
+    }
+
+    .nav__header li {
+
+        padding-left: 3rem;
+        padding-right: 1rem;
+    }
+
+    .logo {
+
+        width: auto;
+        height: 9rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .img__dev {
+
+        width: 40%;
+    }
+
+    .fundo__Descricao {
+
+        width: 100vw;
+        height: auto;
+    }
+
+    .fundo {
+
+        width: auto;
+        border: none;
+    }
+
+    .caixa__Descricao {
+
+        width: auto;
+    }
+
+    .float {
+
+        width: auto;
+        padding-left: 0;
+        padding-right: 1rem;
+    }
+
+    .text {
+
+        width: auto;
+        font-size: 1rem;
+        padding-left: .30rem;
+        padding-right: .30rem;
+    }
+
+    h3 {
+
+        padding-bottom: 2rem;
+    }
+
+
+    .TRE {
+
+        width: auto;
+        padding-bottom: 1rem;
+    }
+
+    .ul__TRE {
+
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .ul__TRE li {
+
+        padding-left: 1rem;
+        line-height: 1.7;
+    }
+
+    .img__block {
+
+        width: 100%;
+    }
+
+
+    /*..............*/
+
+}
